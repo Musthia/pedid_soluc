@@ -1,0 +1,133 @@
+# =========================
+# 🐍 Python
+# =========================
+__pycache__/
+*.py[cod]
+*$py.class
+*.pyo
+*.pyd
+*.rar
+*.bat
+*.xlsx
+*.csv
+
+
+# Entornos virtuales
+venv/
+env/
+.venv/
+lib/
+bin/
+scripts/
+include/
+pyvenv.cfg
+
+# =========================
+# ARCHIVOS SENSIBLES
+# =========================
+.env
+*.env
+config_local.py
+secret.py
+config/settings_local.py
+config/secrets.py
+*.key
+*.pem
+*.kilo
+
+
+# =========================
+# COPIAS / BACKUPS (stale copies)
+# =========================
+base_datcorr copy.py
+ventana_principal copy*.py
+
+# =========================
+# 🧠 IDEs / Editores
+# =========================
+.vscode/
+.idea/
+copias/
+
+# =========================
+# BASE DE DATOS (NO versionar)
+# =========================
+*.db
+*.sqlite
+*.sqlite3
+backups/
+backups_bases/
+backup/
+uploads/
+
+# =========================
+# 📂 Archivos generados
+# =========================
+*.log
+*.tmp
+*.bak
+
+# =========================
+# ARCHIVOS TEMPORALES
+# =========================
+temp/
+tmp/
+*.tmp
+.COPIAS/
+
+# =========================
+# 🖼️ Imágenes generadas
+# =========================
+#img/
+aplicaciones/
+llama ccp_cpu/
+llama cccp_nvidia_3080/
+
+
+# =========================
+# 📦 Builds
+# =========================
+build/
+dist/
+*.exe
+*.lnk
+*.spec
+*_rc.py
+
+# =========================
+# 🔐 Variables sensibles (ver sección ARCHIVOS SENSIBLES arriba)
+# =========================
+
+# =========================
+# ☁️ Google Drive / OAuth (Fase 0 backups Drive: nunca en git ni en el exe)
+# =========================
+credentials.json
+**/credentials.json
+token.json
+**/token.json
+*oauth*.json
+**/drive/*.json
+
+# =========================
+# 🧾 Sistema
+# =========================
+.DS_Store
+Thumbs.db
+
+# =========================
+# 🧪 Cache / testing
+# =========================
+.pytest_cache/
+.coverage
+htmlcov/
+
+# =========================
+# WINDOWS
+# =========================
+Thumbs.db
+desktop.ini
+
+bases_g/
+
+client_secret*.json
+client_secret_*.json
